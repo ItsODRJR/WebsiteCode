@@ -3813,7 +3813,7 @@ var app = (function() {
       c() {
         (n = w("div")),
         (n.innerHTML =
-          '<p class="mb-3">A clone of <a href="https://www.heardle.app/" title="Heardle">Heardle</a> but for Rex Orange County songs. Each song is randomly chosen from his discography, including features.</p> \n\n<p class="mb-3">Made by <a href="https://twitter.com/itsodrjr">@itsodrjr</a>. All copyright goes to Rex Orange County, RCA Records, and other relevant parties.</p> \n\n\n\n <p class="mb-3">  </p>  \n\n\n\n <p class="text-xs mb-3 text-custom-line">Prepared with <a href="https://developers.soundcloud.com">SoundCloud</a>\n and powered by <a href="https://github.com/">Github</a>. See the source code <a href="hhttps://github.com/ItsODRJR/itsodrjr.github.io/tree/main/heardle/">here</a>.'),
+          '<p class="mb-3">A clone of <a href="https://www.heardle.app/" title="Heardle">Heardle</a> but for Rex Orange County songs. Each song is randomly chosen from his discography, including features.</p> \n\n<p class="mb-3">Made by <a href="https://twitter.com/itsodrjr">@itsodrjr</a>. All copyright goes to Rex Orange County, RCA Records, and other relevant parties.</p> \n\n\n\n <p class="mb-3">  </p>  \n\n\n\n <p class="text-xs mb-3 text-custom-line">Prepared with <a href="https://developers.soundcloud.com">SoundCloud</a>\n and powered by <a href="https://github.com/">Github</a>. See the source code <a href="https://github.com/ItsODRJR/itsodrjr.github.io/tree/main/heardle/">here</a>.'),
         M(n, "class", "text");
       },
       m(e, t) {
