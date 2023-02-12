@@ -787,7 +787,7 @@ var app = (function() {
             Q(a.$$.fragment),
             (l = x()),
             (u = w("h1")),
-            (u.textContent = "Rex Orange County Heardle"),
+            (u.textContent = "RexHeardle"),
             (c = x()),
             (d = w("div")),
             Q(h.$$.fragment),
@@ -4405,7 +4405,7 @@ var app = (function() {
       s = (e[0].length * e[1].attemptInterval) / 1e3 + "";
     return {
       c() {
-        (t = _("You got today's Rex Orange County Heardle within the first ")),
+        (t = _("You got today's RexHeardle within the first ")),
         (n = _(s)),
         (r = _(" seconds."));
       },
@@ -4464,7 +4464,7 @@ var app = (function() {
     let n;
     return {
       c() {
-        n = _("You didn't get today's Rex Orange County Heardle. Better luck tomorrow!");
+        n = _("You didn't get today's RexHeardle. Better luck tomorrow!");
       },
       m(e, t) {
         g(e, n, t);
@@ -4618,7 +4618,7 @@ var app = (function() {
         c,
         () => {
           // console.log('answer', r.length)
-          let e = "Rex Orange County Heardle #" + (s.id + 1),
+          let e = "RexHeardle #" + (s.id + 1),
             t = "";
           a
             ?
