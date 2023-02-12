@@ -9086,6 +9086,8 @@ var app = (function() {
       "Rex Orange County - Waiting Room",
       "Rex Orange County - You've Got a Friend in Me",
       "Rex Orange County - Edition",
+    "Rex Orange County - Sunflower",
+    "Rex Orange County - Best Friend",
     ]),
     On = {
       subscribe: ue(
@@ -9271,6 +9273,14 @@ var app = (function() {
           },
           {
             url: "https://soundcloud.com/rexorangecounty/edition",
+            answer: "Rex Orange County - Edition",
+          },
+         {
+            url: "https://soundcloud.com/rexorangecounty/sunflower",
+            answer: "Rex Orange County - Edition",
+          },
+         {
+            url: "https://soundcloud.com/rexorangecounty/best-friend",
             answer: "Rex Orange County - Edition",
           },
         ],
