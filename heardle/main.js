@@ -4054,7 +4054,7 @@ var app = (function() {
       attemptInterval: 1.5e3,
       attemptIntervalAlt: [1e3, 2e3, 4e3, 7e3, 11e3, 16e3],
       maxAttempts: 6,
-      startDate: "2023-01-17",
+      startDate: "2023-02-12",
     },
     Jt = ["Huh", "That's insane!!", "Great!", "AMAZING", "KEEP IT UP!", "Hmmmm", "Need to relisten, huh?"];
 
