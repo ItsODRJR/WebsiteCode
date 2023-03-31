@@ -9277,11 +9277,11 @@ var app = (function() {
           },
          {
             url: "https://soundcloud.com/rexorangecounty/sunflower",
-            answer: "Rex Orange County - Edition",
+            answer: "Rex Orange County - Sunflower",
           },
          {
             url: "https://soundcloud.com/rexorangecounty/best-friend",
-            answer: "Rex Orange County - Edition",
+            answer: "Rex Orange County - Best Friend",
           },
         ],
         Pn
