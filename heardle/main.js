@@ -7,7 +7,7 @@ var app = (function () {
   
   const HEARDLE_NAME = "RexHeardle";
   
-  const HEARDLE_START_DATE = "2023-02-12";
+  const HEARDLE_START_DATE = "2022-03-27";
   
   const HEARDLE_GAME_COMMENTS = [
       "Need to relisten, huh?", // FAILED
