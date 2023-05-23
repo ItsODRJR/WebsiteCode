@@ -178,7 +178,7 @@ let songs = [
     answer: "Rex Orange County - Waiting Room",
   },
   {
-    url: "https://soundcloud.com/user-532637516/rex-orange-county-randy-newman",
+    url: "https://soundcloud.com/katryia/youve-got-a-friend-in-me",
     answer: "Rex Orange County - You've got a Friend in Me",
   },
   {
