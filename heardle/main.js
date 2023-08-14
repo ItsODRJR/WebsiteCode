@@ -9596,8 +9596,8 @@ var app = (function () {
     let r, s, i, o;
     u(e, Cn, (e) => n(26, (r = e))), u(e, On, (e) => n(27, (s = e)));
     console.log(s);
-    let a = x(Vt.startDate),
-      console.log(a);
+    let a = x(Vt.startDate);
+    console.log(a);
     console.log(s[a]);
       l = {
         url: s[a].url,
