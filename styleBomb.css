@@ -1,0 +1,51 @@
+body {
+  background-color: #000; /* black background */
+  text-align: center; /* center all elements */
+  font-family: Arial, sans-serif; /* default font */
+}
+
+h1 {
+  color: #fff; /* white text */
+  margin-bottom: 20px; /* add some space below the title */
+}
+
+input[type="number"], button {
+  margin: 10px; /* add some space around inputs and buttons */
+  padding: 10px; /* add some padding to inputs and buttons */
+  border: none; /* remove borders */
+  border-radius: 5px; /* add rounded corners */
+  background-color: #333; /* dark gray background */
+  color: #fff; /* white text */
+  font-size: 18px; /* increase font size */
+}
+
+input[type="number"]:focus, button:focus {
+  outline: none; /* remove outline on focus */
+  box-shadow: 0 0 10px #666; /* add a subtle shadow on focus */
+}
+
+#questionBox {
+  margin: 20px auto; /* center the question box */
+  width: 50%; /* set a maximum width */
+  background-color: #333; /* dark gray background */
+  padding: 20px; /* add some padding */
+  border-radius: 10px; /* add rounded corners */
+  box-shadow: 0 0 10px #666; /* add a subtle shadow */
+}
+
+#question {
+  font-size: 24px; /* increase font size */
+  margin-bottom: 10px; /* add some space below the question */
+}
+
+#result {
+  font-size: 18px; /* increase font size */
+  color: #fff; /* white text */
+  margin-top: 10px; /* add some space above the result */
+}
+
+#countdown {
+  font-size: 24px; /* increase font size */
+  color: #fff; /* white text */
+  margin-top: 10px; /* add some space above the countdown */
+}

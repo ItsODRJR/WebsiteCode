@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Countdown Quiz</title>
+</head>
+<body>
+  <h1>Countdown Quiz</h1>
+  <link rel="stylesheet" type="text/css" href="styleBomb.css">
+  <button onclick="startQuiz()">Start Quiz</button>
+  <div id="questionBox" style="display:none;">
+    <p id="question"></p>
+    <input type="number" id="answer">
+    <button onclick="submitAnswer()">Submit</button>
+  </div>
+  <p id="result"></p>
+  <p id="countdown"></p>
+
+  <script>
+    let num1, num2, num3, num4;
+    let defused = false;
+
+    function startQuiz() {
+      var duration = 60;
+      var seconds = duration;
+
+      function secondPassed() {
+        var minutes = Math.floor(seconds / 60),
+          remainingSeconds = seconds % 60;
+
+          if (defused) {
+            return;
+        }
+        if (remainingSeconds < 10) {
+          remainingSeconds = "0" + remainingSeconds;
+        }
+
+        document.getElementById("countdown").innerHTML = minutes + ":" + remainingSeconds;
+
+        if (seconds == 0) {
+          clearInterval(countdownTimer);
+          document.getElementById("questionBox").style.display = "none";
+          document.getElementById("result").innerHTML = "Kaboom!";
+        } else {
+          seconds--;
+        }
+      }
+
+      var countdownTimer = setInterval(secondPassed, 1000);
+
+      generateQuestion();
+      document.getElementById("questionBox").style.display = "block";
+    }
+
+    function generateQuestion() {
+      num1 = Math.floor(Math.random() * 10) + 1;
+      num2 = Math.floor(Math.random() * 10) + 1;
+      num3 = Math.floor(Math.random() * 10) + 1;
+      num4 = Math.floor(Math.random() * 10) + 1;
+      document.getElementById("question").innerHTML = num1 + " * " + num2 + " * " + num3 + " * " + num4 + "=?";
+      document.getElementById("answer").value = "";
+      document.getElementById("result").innerHTML = "";
+    }
+
+    function submitAnswer() {
+      var userAnswer = Number(document.getElementById("answer").value);
+      var correctAnswer = num1 * num2 * num3 * num4;
+
+      if (userAnswer == correctAnswer) {
+        document.getElementById("result").innerHTML = "Bomb defused!";
+        defused = true;
+      } else {
+        document.getElementById("result").innerHTML = "Incorrect. Keep trying loser!";
+      }
+    }
+  </script>
+</body>
+</html>
