@@ -1,0 +1,59 @@
+[
+  {
+    "title": "FNBR: Event Recreations",
+    "imageSrc": "projects/fnbr.webp",
+    "description": "Fortnite Live Events ported to Roblox",
+    "skills": ["Roblox Studio", "Luau", "Blender"],
+    "demo": "https://www.roblox.com/games/6053758976/FNBR-Event-Recreations"
+  },
+  {
+    "title": "The Hub / Atlas",
+    "imageSrc": "projects/atlas.webp",
+    "description": "Live Event story driven game.",
+    "skills": ["Roblox Studio", "Luau", "Blender"],
+    "demo": "https://www.roblox.com/games/5182236664/ATLAS-Frontiers"
+  },
+  {
+    "title": "basement party",
+    "imageSrc": "projects/bp.webp",
+    "description": "Hangout game with minigames, emotes, and secrets.",
+    "skills": ["Roblox Studio", "Luau", "Blender"],
+    "demo": "https://www.roblox.com/games/7706614263/basement-party"
+  },
+  {
+    "title": "The Terminal",
+    "imageSrc": "projects/terminal.webp",
+    "description": "The Terminal. More info soon.",
+    "skills": ["Roblox Studio", "Luau", "OpenAI"],
+    "demo": "https://www.roblox.com/games/13377624638/The-Terminal"
+  },
+  {
+    "title": "Funplex",
+    "imageSrc": "projects/funplex.webp",
+    "description": "Funker spin off, coming soon.",
+    "skills": ["Roblox Studio", "Luau", "Blender"],
+    "demo": "https://www.roblox.com/games/8819590983/FunPlex"
+  },
+  {
+    "title": "MOUSE QUEST",
+    "imageSrc": "projects/mouse.jpg",
+    "description": "Silly Unity3D project made in one day.",
+    "skills": ["Unity3D", "C#", "Blender"],
+    "demo": "https://itsodrjr.itch.io/mouse-quest"
+  },
+  {
+    "title": "Venture",
+    "imageSrc": "projects/black.jpg",
+    "description": "More info soon...",
+    "skills": ["Unity3D", "C#", "Blender"],
+    "demo": "https://integralgames.net/"
+  }
+  ,
+  {
+    "title": "Odysseus ",
+    "imageSrc": "projects/black.jpg",
+    "description": "More info soon...",
+    "skills": ["Unity3D", "C#", "Blender"],
+    "demo": "https://integralgames.net/"
+  }
+]
